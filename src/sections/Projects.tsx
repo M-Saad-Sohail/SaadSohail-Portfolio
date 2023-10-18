@@ -3,11 +3,16 @@ import Link from "next/link";
 import React from "react";
 import { FiGithub, FiExternalLink } from "react-icons/fi";
 import { motion } from "framer-motion";
+import QuizApp1 from "../../public/Project1-saad.png"
+import QuizApp2 from "../../public/Project2-saad.png"
+import WeatherApp from "../../public/Project3-weatherapp.png"
+import TodoApp from "../../public/Project4-TodoApp.png"
+import StopWatch from "../../public/Project4-TodoApp.png"
 
 function Projects() {
   const projectsData = [
     {
-      image: "/Project1-saad.png",
+      image: QuizApp1.src,
       projectName: "QuizApp-React",
       projectLink: "https://saadsohail-quizapp-react.netlify.app",
       projectDescription:
@@ -19,7 +24,7 @@ function Projects() {
       },
     },
     {
-      image: "/Project2-saad.png",
+      image: QuizApp2.src,
       projectName: "QuizApp-Add-Question",
       projectLink: "https://saadsohail-quizapp-react.netlify.app/add",
       projectDescription:
@@ -31,7 +36,7 @@ function Projects() {
       },
     },
     {
-      image: "/Project3-weatherapp.png",
+      image: WeatherApp.src,
       projectName: "TodoApp React",
       projectLink: "https://m-saad-sohail.github.io/Weather-App/",
       projectDescription:
@@ -43,7 +48,7 @@ function Projects() {
       },
     },
     {
-      image: "/Project4-TodoApp.png",
+      image: TodoApp.src,
       projectName: "TodoApp React",
       projectLink: "https://m-saad-sohail.github.io/TodoApp-React-Js/",
       projectDescription:
@@ -55,7 +60,7 @@ function Projects() {
       },
     },
     {
-      image: "/Project5-stopwatch.png",
+      image: StopWatch.src,
       projectName: "Stop Watch",
       projectLink: "https://saadsohail-stopwatch.netlify.app/",
       projectDescription:
