@@ -1,3 +1,10 @@
+GITHUB PAGES HOSTED LINK
+
+https://m-saad-sohail.github.io/SaadSohail-Portfolio/
+
+NETLIFY HOSTED LINK
+
+https://saadsohail-portfolio.netlify.app/
 
 
 ## Technologies Used
