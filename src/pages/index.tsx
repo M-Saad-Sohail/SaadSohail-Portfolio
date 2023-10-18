@@ -10,6 +10,7 @@ import About from "@/sections/About";
 import Contact from "@/sections/Contact";
 import Projects from "@/sections/Projects";
 // import Experience from "@/sections/Experience";
+import FaviconSaad from "../../public/favicon.ico";
 
 function Index() {
   const [isLoading, setIsLoading] = useState(true);
@@ -24,7 +25,7 @@ function Index() {
     <div className="app">
       <Head>
         <title>Saad Sohail</title>
-        <link rel="shortcut icon" href="/favicon-s.ico" />
+        <link rel="shortcut icon" href={FaviconSaad.src} />
       </Head>
       {showContent && (
         <>
