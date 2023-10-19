@@ -1,5 +1,4 @@
 {
-  "homepage": "https://",
   "name": "nextjs-portfolio",
   "version": "0.1.0",
   "private": true,
@@ -24,7 +23,6 @@
     "typescript": "4.9.5"
   },
   "devDependencies": {
-    "gh-pages": "^6.0.0",
     "sass": "^1.59.2"
   }
 }
