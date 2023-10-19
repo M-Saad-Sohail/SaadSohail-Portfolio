@@ -1,6 +1,6 @@
 GITHUB PAGES HOSTED LINK
 
-https://m-saad-sohail.github.io/SaadSohail-Portfolio/
+https://m-saad-sohail.github.io/SaadSohail-Portfolio/   (IT WONT WORK BECAUSE RESPOSITORY IS PRIVATE)
 
 NETLIFY HOSTED LINK
 
