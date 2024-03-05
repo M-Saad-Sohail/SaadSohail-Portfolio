@@ -3,7 +3,7 @@ import React from "react";
 import {
   FiGithub,
   FiInstagram,
-  FiYoutube,
+  // FiYoutube,
   FiLinkedin,
   FiTwitter,
 } from "react-icons/fi";
@@ -30,7 +30,7 @@ function SocialIcons() {
     {
       name: "LinkedIn",
       icon: <FiLinkedin />,
-      link: "https://www.linkedin.com/in/saad-sohail-8b7582218/",
+      link: "https://www.linkedin.com/in/m-saad-sohail/",
     },
     {
       name: "Instagram",
