@@ -21,59 +21,41 @@ function About() {
       variants={{
         visible: { opacity: 1, y: -50 },
         hidden: { opacity: 0, y: 0 },
-      }}
-    >
+      }}>
       <div className="title">
         <h2>About Me</h2>
       </div>
       <div className="about-grid">
         <div className="about-grid-info">
           <p className="about-grid-info-text">
-            Bonjour! My name is Saad Sohail,Accomplished Front-End Developer
-            adept in utilizing cutting-edge technologies, including HTML5, CSS3,
-            and JavaScript, to create engaging and intuitive web applications.
-            Proficient in popular frameworks such as Bootstrap, Tailwind CSS,
-            React.js, Next.js, and Typescript, I bring a unique blend of
-            creativity and technical expertise to the table. My mastery extends
-            to Firebase, where I manage real-time databases, authentication
-            processes, and hosting solutions seamlessly.
+            Bonjour! I'm Saad Sohail, a passionate Front-End Developer
+            specializing in Next.js, React.js, and React Native. I craft
+            engaging and intuitive web and mobile applications, emphasizing
+            responsive design and seamless user experiences.
           </p>
           <p className="about-grid-info-text">
-            Throughout my education, I am deeply passionate about crafting
-            visually stunning and seamlessly functional user interfaces, always
-            pushing the boundaries of innovation in web development. My
-            commitment to staying abreast of the latest industry trends
-            underscores my dedication to delivering exceptional and
-            user-friendly digital experiences.
-            {/* <Link
-              href="https://www.linkedin.com/company/trafix-llc/"
-              className="link"
-              target="_blank"
-            >
-              TRAFiX LLC
-            </Link> */}
-          </p>
-
-          <p className="about-grid-info-text">
-            I get excited about opportunities where I can practice my Solution
-            Front-End skills in the industry and make some contribution on my
-            behalf.
+            My expertise lies in building visually appealing UIs with Tailwind
+            CSS and managing complex state using Redux Toolkit. I have hands-on
+            experience integrating APIs, enhancing application performance, and
+            ensuring maintainability. Additionally, I have foundational
+            knowledge of TypeScript, Python, Java, and C.
           </p>
           <p className="about-grid-info-text">
-            I love connecting with new people, you can reach me at
-            saadsohail232005@gmail.com or here on LinkedIn.
-            {/* <Link
-              className="link"
-              target="_blank"
-              href="https://frontendvita.com"
-            >
-              FrontendVita,
-            </Link> */}
-            &nbsp;Aimed at enhancing frontend development skills.
+            I am constantly learning and staying up-to-date with industry
+            trends, striving to push the boundaries of innovation in web and
+            mobile development. I thrive in collaborative environments, working
+            closely with designers and backend teams to deliver dynamic,
+            user-centric solutions.
           </p>
           <p className="about-grid-info-text">
-            Here are a few technologies and skills that I’ve learned and still
-            working with recently throughout my exciting journey:
+            I'm always open to new opportunities where I can leverage my skills
+            and contribute to impactful projects. Feel free to reach out to me
+            at saadsohail232005@gmail.com or connect with me on LinkedIn. Let's
+            create something amazing together!
+          </p>
+          <p className="about-grid-info-text">
+            Here are a few technologies and skills that I’ve mastered and
+            continue to explore throughout my journey:
           </p>
           <ul className="about-grid-info-list">
             <li className="about-grid-info-list-item">Html5</li>
