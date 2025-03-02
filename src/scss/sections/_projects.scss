@@ -43,8 +43,11 @@
         position: absolute;
         top: 0;
         left: 0;
+        transition: z-index 0.3s ease-in-out;
 
         &:hover {
+          z-index: 100;
+          transition: 0.3s ease-in-out;
           .project-image-overlay {
             background-color: #00000000;
           }

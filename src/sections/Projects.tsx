@@ -3,24 +3,25 @@ import Link from "next/link";
 import React from "react";
 import { FiGithub, FiExternalLink } from "react-icons/fi";
 import { motion } from "framer-motion";
-import QuizApp1 from "../../public/Project1-saad.png"
-import QuizApp2 from "../../public/Project2-saad.png"
-import WeatherApp from "../../public/Project3-weatherapp.png"
-import TodoApp from "../../public/Project4-TodoApp.png"
-import StopWatch from "../../public/Project4-TodoApp.png"
+import Bragdeal from "../../public/bradeal-saas.jpg";
+import QuizApp1 from "../../public/Project1-saad.png";
+import QuizApp2 from "../../public/Project2-saad.png";
+import WeatherApp from "../../public/Project3-weatherapp.png";
+import TodoApp from "../../public/Project4-TodoApp.png";
+import StopWatch from "../../public/Project4-TodoApp.png";
 
 function Projects() {
   const projectsData = [
     {
-      image: QuizApp1.src,
-      projectName: "QuizApp-React",
+      image: Bragdeal.src,
+      projectName: "Bragdeal SaaS",
       projectLink: "https://saadsohail-quizapp-react.netlify.app",
       projectDescription:
-        "This is a web application that uses the an array of questions to display questions and you can also add more questions using add button which will direct you to another page connected using React Router and saves data in the first pages using Context Api. This Website is made using React Js and for styling Tailwind Css.",
-      projectTech: ["React Js", "Tailwind Css", "React Routing", "Context Api"],
+        "Designed and implemented frontend for a multi-role SaaS platform (Superadmin, Agency, User) with role-based management. Built real-time ticketing with Firebase, enabling Agencies to submit tickets with attachments, track issues, and live chat with Superadmin. Integrated Stripe for subscription and payment processing across roles. Contributed to API integration, Redux Toolkit setup, and frontend design using Next.js and Laravel.",
+      projectTech: ["Next Js", "Tailwind Css", "Stripe", "Redux Toolkit"],
       projectExternalLinks: {
-        github: "https://github.com/M-Saad-Sohail/QuizApp-React",
-        externalLink: "https://saadsohail-quizapp-react.netlify.app",
+        github: "",
+        externalLink: "https://bragdeal-saas.vercel.app/login",
       },
     },
     {
@@ -41,7 +42,7 @@ function Projects() {
       projectLink: "https://m-saad-sohail.github.io/Weather-App/",
       projectDescription:
         "I created his Weather App using Weather Api and React Js. I fecthed data from the Api and the styling is performed using Tailwind Css",
-      projectTech:  ["React Js", "Tailwind Css","Weather Api"],
+      projectTech: ["React Js", "Tailwind Css", "Weather Api"],
       projectExternalLinks: {
         github: "https://github.com/M-Saad-Sohail/Weather-App",
         externalLink: "https://m-saad-sohail.github.io/Weather-App/",
@@ -53,7 +54,7 @@ function Projects() {
       projectLink: "https://m-saad-sohail.github.io/TodoApp-React-Js/",
       projectDescription:
         "I created this TodoApp which can let you Add Todos, Delete todos, and you can also edit those Todos all these Functionalities were implemented using React useState hook and styled using Tailwind Css.",
-      projectTech:  ["React Js", "Tailwind Css",],
+      projectTech: ["React Js", "Tailwind Css"],
       projectExternalLinks: {
         github: "https://Github.com/M-Saad-Sohail/TodoApp-React-Js/",
         externalLink: "https://m-saad-sohail.github.io/TodoApp-React-Js/",
@@ -65,7 +66,7 @@ function Projects() {
       projectLink: "https://saadsohail-stopwatch.netlify.app/",
       projectDescription:
         "I created a Stop Watch using HTML5, CSS3 & JavaScript.I have also added sound effect using a small audio which is handled through an API to handle Infinite play without pause or Glitch,I have also added background animation using Css and the styling is completed using Tailwind Css. ",
-      projectTech:  ["HTML5","CSS3","JavaScript ES6", "Tailwind Css",],
+      projectTech: ["HTML5", "CSS3", "JavaScript ES6", "Tailwind Css"],
       projectExternalLinks: {
         github: "https://github.com/M-Saad-Sohail/Stop-Watch",
         externalLink: "https://saadsohail-stopwatch.netlify.app/",
@@ -102,8 +103,7 @@ function Projects() {
         variants={{
           visible: { opacity: 1, y: -50 },
           hidden: { opacity: 0, y: 0 },
-        }}
-      >
+        }}>
         <h2>Some Things I’ve Built</h2>
       </motion.div>
       <div className="projects-container">
@@ -127,8 +127,7 @@ function Projects() {
                 variants={{
                   visible: { opacity: 1, y: -50 },
                   hidden: { opacity: 0, y: 0 },
-                }}
-              >
+                }}>
                 <div className="project-image">
                   <div className="project-image-overlay"></div>
                   <div className="project-image-container">
@@ -153,8 +152,7 @@ function Projects() {
                       <Link
                         target="_blank"
                         href={projectExternalLinks.github}
-                        className="project-info-links-item-link"
-                      >
+                        className="project-info-links-item-link">
                         <FiGithub />
                       </Link>
                     </li>
@@ -162,8 +160,7 @@ function Projects() {
                       <Link
                         target="_blank"
                         href={projectExternalLinks.externalLink}
-                        className="project-info-links-item-link"
-                      >
+                        className="project-info-links-item-link">
                         <FiExternalLink />
                       </Link>
                     </li>
