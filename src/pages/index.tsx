@@ -11,6 +11,7 @@ import Contact from "@/sections/Contact";
 import Projects from "@/sections/Projects";
 import Experience from "@/sections/Experience";
 import FaviconSaad from "../../public/favicon.ico";
+import Skills from "@/sections/Skills";
 
 function Index() {
   const [isLoading, setIsLoading] = useState(true);
@@ -34,6 +35,7 @@ function Index() {
           <main>
             <Hero />
             <About />
+            <Skills />
             <Experience />
             <Projects />
             <Contact />

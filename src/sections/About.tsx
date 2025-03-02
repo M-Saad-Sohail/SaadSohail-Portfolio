@@ -57,17 +57,6 @@ function About() {
             Here are a few technologies and skills that I’ve mastered and
             continue to explore throughout my journey:
           </p>
-          <ul className="about-grid-info-list">
-            <li className="about-grid-info-list-item">Html5</li>
-            <li className="about-grid-info-list-item">CSS3</li>
-            <li className="about-grid-info-list-item">JavaScript</li>
-            <li className="about-grid-info-list-item">Bootstrap</li>
-            <li className="about-grid-info-list-item">Firebase</li>
-            <li className="about-grid-info-list-item">Tailwind Css</li>
-            <li className="about-grid-info-list-item">React Js</li>
-            <li className="about-grid-info-list-item">Typescript</li>
-            <li className="about-grid-info-list-item">Next.js</li>
-          </ul>
         </div>
         <div className="about-grid-photo">
           <div className="overlay"></div>
