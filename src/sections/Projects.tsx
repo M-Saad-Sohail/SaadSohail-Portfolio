@@ -4,6 +4,8 @@ import React from "react";
 import { FiGithub, FiExternalLink } from "react-icons/fi";
 import { motion } from "framer-motion";
 import Bragdeal from "../../public/bradeal-saas.jpg";
+import Inker from "../../public/Inker_rn.jpg";
+import PostAutoPilot from "../../public/PostAutoPilot.jpg";
 import QuizApp1 from "../../public/Project1-saad.png";
 import QuizApp2 from "../../public/Project2-saad.png";
 import WeatherApp from "../../public/Project3-weatherapp.png";
@@ -17,7 +19,7 @@ function Projects() {
       projectName: "Bragdeal SaaS",
       projectLink: "https://saadsohail-quizapp-react.netlify.app",
       projectDescription:
-        "Designed and implemented frontend for a multi-role SaaS platform (Superadmin, Agency, User) with role-based management. Built real-time ticketing with Firebase, enabling Agencies to submit tickets with attachments, track issues, and live chat with Superadmin. Integrated Stripe for subscription and payment processing across roles. Contributed to API integration, Redux Toolkit setup, and frontend design using Next.js and Laravel.",
+        "Developed the frontend for a multi-role SaaS platform with role-based management (Superadmin, Agency, User). Built real-time ticketing with Firebase, enabling issue tracking and live chat. Integrated Stripe for payments and subscriptions. Worked on API integration, Redux Toolkit, and frontend design using Next.js and Laravel.",
       projectTech: ["Next Js", "Tailwind Css", "Stripe", "Redux Toolkit"],
       projectExternalLinks: {
         github: "",
@@ -25,23 +27,23 @@ function Projects() {
       },
     },
     {
-      image: QuizApp2.src,
-      projectName: "QuizApp-Add-Question",
+      image: Inker.src,
+      projectName: "Inker Mobile App",
       projectLink: "https://saadsohail-quizapp-react.netlify.app/add",
       projectDescription:
-        "This is the second part of Quiz App where you can add questions and then go back to Quiz which is performed using Context Api & React Routing.",
-      projectTech: ["React Js", "Tailwind Css", "React Routing", "Context Api"],
+        "Developed the frontend of a React Native app inspired by Instagram, featuring authentication, a tattoo simulation tool with adjustable overlays, and image downloads. Built a comment section with replies, an interactive chat with audio messaging, and appointment scheduling for tattoo artists. Managed state with Redux Toolkit and used Next.js for backend APIs.",
+      projectTech: ["React Native", "Redux Toolkit"],
       projectExternalLinks: {
         github: "https://github.com/M-Saad-Sohail/QuizApp-React",
         externalLink: "https://saadsohail-quizapp-react.netlify.app/add",
       },
     },
     {
-      image: WeatherApp.src,
-      projectName: "TodoApp React",
+      image: PostAutoPilot.src,
+      projectName: "PostAutoPilot Mobile App",
       projectLink: "https://m-saad-sohail.github.io/Weather-App/",
       projectDescription:
-        "I created his Weather App using Weather Api and React Js. I fecthed data from the Api and the styling is performed using Tailwind Css",
+        "Developed the Post Auto Pilot app with user authentication, QR code-based account connection, and social media post scheduling for Facebook, Instagram, and TikTok. Integrated OneSignal for notifications and implemented multiple navigators (stack, drawer, bottom, and material top tab) to enhance the user experience, similar to Social Pilot.",
       projectTech: ["React Js", "Tailwind Css", "Weather Api"],
       projectExternalLinks: {
         github: "https://github.com/M-Saad-Sohail/Weather-App",

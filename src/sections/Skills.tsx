@@ -1,12 +1,7 @@
-import React, { useEffect, useRef } from "react";
-import { useInView, motion } from "framer-motion";
+import React from "react";
+import { motion } from "framer-motion";
 
 function Skills() {
-  const ref = useRef(null);
-  const isInView = useInView(ref);
-  useEffect(() => {
-    console.log("Element is in view: ", isInView);
-  }, [isInView]);
   return (
     <motion.div
       className="skills"

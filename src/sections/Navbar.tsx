@@ -10,8 +10,9 @@ function Navbar() {
   const [responsiveNavVisible, setResponsiveNavVisible] = useState(false);
   const sectionLinks = [
     { name: "About", link: "/#about" },
-    // { name: "Experience", link: "/#experience" },
-    { name: "Work", link: "/#work" },
+    { name: "Skills", link: "/#skills" },
+    { name: "Experience", link: "/#experience" },
+    { name: "Projects", link: "/#work" },
     { name: "Contact", link: "/#contact" },
   ];
 
@@ -57,8 +58,7 @@ function Navbar() {
           transition={{
             duration: 0.3,
             ease: "easeInOut",
-          }}
-        >
+          }}>
           <Link href="/">
             <Logo />
           </Link>
@@ -70,8 +70,7 @@ function Navbar() {
           transition={{
             duration: 0.3,
             ease: "easeInOut",
-          }}
-        >
+          }}>
           {responsiveNavVisible ? (
             <CgClose
               onClick={(e) => {
@@ -89,8 +88,7 @@ function Navbar() {
           )}
         </motion.div>
         <div
-          className={`${responsiveNavVisible && "nav-responsive"} nav-items`}
-        >
+          className={`${responsiveNavVisible && "nav-responsive"} nav-items`}>
           <ul className="nav-items-list">
             {sectionLinks.map(({ name, link }, index) => (
               <motion.li
@@ -102,8 +100,7 @@ function Navbar() {
                   duration: 0.3,
                   ease: "easeInOut",
                   delay: 0.3 + index * 0.1,
-                }}
-              >
+                }}>
                 <Link href={link} className="nav-items-list-item-link">
                   {name}
                 </Link>
@@ -118,8 +115,7 @@ function Navbar() {
               duration: 0.3,
               ease: "easeInOut",
               delay: 0.6,
-            }}
-          >
+            }}>
             <Button text="Resume" link="/resume.pdf" />
           </motion.div>
         </div>
