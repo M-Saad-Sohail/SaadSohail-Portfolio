@@ -23,34 +23,20 @@ function About() {
       <div className="about-grid">
         <div className="about-grid-info">
           <p className="about-grid-info-text">
-            Bonjour! I&apos;m Saad Sohail, a passionate Front-End Developer
-            specializing in Next.js, React.js, and React Native. I craft
-            engaging and intuitive web and mobile applications, emphasizing
-            responsive design and seamless user experiences.
+            Bonjour! I&apos;m Saad Sohail, a Front-End Developer specializing in
+            Next.js, React.js, and React Native. I build responsive,
+            high-performance web and mobile applications with a keen eye for
+            UI/UX.
           </p>
           <p className="about-grid-info-text">
-            My expertise lies in building visually appealing UIs with Tailwind
-            CSS and managing complex state using Redux Toolkit. I have hands-on
-            experience integrating APIs, enhancing application performance, and
-            ensuring maintainability. Additionally, I have foundational
-            knowledge of TypeScript, Python, Java, and C.
+            Skilled in Tailwind CSS, Redux Toolkit, and API integration, I focus
+            on creating scalable and maintainable solutions. I also have a
+            foundation in TypeScript, Python, Java, and C.
           </p>
           <p className="about-grid-info-text">
-            I am constantly learning and staying up-to-date with industry
-            trends, striving to push the boundaries of innovation in web and
-            mobile development. I thrive in collaborative environments, working
-            closely with designers and backend teams to deliver dynamic,
-            user-centric solutions.
-          </p>
-          <p className="about-grid-info-text">
-            I&apos;m always open to new opportunities where I can leverage my
-            skills and contribute to impactful projects. Feel free to reach out
-            to me at saadsohail232005@gmail.com or connect with me on LinkedIn.
-            Let&apos;s create something amazing together!
-          </p>
-          <p className="about-grid-info-text">
-            Here are a few technologies and skills that I’ve mastered and
-            continue to explore throughout my journey:
+            Passionate about innovation, I collaborate with teams to craft
+            seamless user experiences. Open to opportunities—let&apos;s connect
+            and build something amazing!
           </p>
         </div>
         <div className="about-grid-photo">
