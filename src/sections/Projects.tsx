@@ -6,9 +6,6 @@ import { motion } from "framer-motion";
 import Bragdeal from "../../public/bradeal-saas.jpg";
 import Inker from "../../public/Inker_rn.jpg";
 import PostAutoPilot from "../../public/PostAutoPilot.jpg";
-import QuizApp1 from "../../public/Project1-saad.png";
-import QuizApp2 from "../../public/Project2-saad.png";
-import WeatherApp from "../../public/Project3-weatherapp.png";
 import TodoApp from "../../public/Project4-TodoApp.png";
 import StopWatch from "../../public/Project4-TodoApp.png";
 

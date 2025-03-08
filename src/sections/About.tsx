@@ -23,7 +23,7 @@ function About() {
       <div className="about-grid">
         <div className="about-grid-info">
           <p className="about-grid-info-text">
-            Bonjour! I'm Saad Sohail, a passionate Front-End Developer
+            Bonjour! I&apos;m Saad Sohail, a passionate Front-End Developer
             specializing in Next.js, React.js, and React Native. I craft
             engaging and intuitive web and mobile applications, emphasizing
             responsive design and seamless user experiences.
@@ -43,10 +43,10 @@ function About() {
             user-centric solutions.
           </p>
           <p className="about-grid-info-text">
-            I'm always open to new opportunities where I can leverage my skills
-            and contribute to impactful projects. Feel free to reach out to me
-            at saadsohail232005@gmail.com or connect with me on LinkedIn. Let's
-            create something amazing together!
+            I&apos;m always open to new opportunities where I can leverage my
+            skills and contribute to impactful projects. Feel free to reach out
+            to me at saadsohail232005@gmail.com or connect with me on LinkedIn.
+            Let&apos;s create something amazing together!
           </p>
           <p className="about-grid-info-text">
             Here are a few technologies and skills that I’ve mastered and
