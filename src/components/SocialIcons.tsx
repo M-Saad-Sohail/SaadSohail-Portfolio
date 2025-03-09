@@ -1,13 +1,7 @@
 import Link from "next/link";
 import React from "react";
-import {
-  FiGithub,
-  FiInstagram,
-  // FiYoutube,
-  FiLinkedin,
-  FiTwitter,
-} from "react-icons/fi";
-import {BsWhatsapp} from "react-icons/bs";
+import { FiGithub, FiInstagram, FiLinkedin, FiTwitter } from "react-icons/fi";
+import { BsWhatsapp } from "react-icons/bs";
 import { motion } from "framer-motion";
 
 function SocialIcons() {
@@ -17,11 +11,6 @@ function SocialIcons() {
       icon: <FiGithub />,
       link: "https://github.com/M-Saad-Sohail/",
     },
-    // {
-    //   name: "Youtube",
-    //   icon: <FiYoutube />,
-    //   link: "https://www.youtube.com/KishanSheth21/",
-    // },
     {
       name: "WhatsApp",
       icon: <BsWhatsapp />,
@@ -52,16 +41,14 @@ function SocialIcons() {
         duration: 0.3,
         ease: "easeInOut",
         delay: 1.95,
-      }}
-    >
+      }}>
       <ul className="social-icons-list">
         {socialLinks.map(({ name, icon, link }) => (
           <li key={name} title={name} className="social-icons-list-item">
             <Link
               href={link}
               className="social-icons-list-item-link"
-              target="_blank"
-            >
+              target="_blank">
               {icon}
             </Link>
           </li>
