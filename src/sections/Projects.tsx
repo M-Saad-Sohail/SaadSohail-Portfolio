@@ -47,30 +47,30 @@ function Projects() {
         externalLink: "https://m-saad-sohail.github.io/Weather-App/",
       },
     },
-    {
-      image: TodoApp.src,
-      projectName: "TodoApp React",
-      projectLink: "https://m-saad-sohail.github.io/TodoApp-React-Js/",
-      projectDescription:
-        "I created this TodoApp which can let you Add Todos, Delete todos, and you can also edit those Todos all these Functionalities were implemented using React useState hook and styled using Tailwind Css.",
-      projectTech: ["React Js", "Tailwind Css"],
-      projectExternalLinks: {
-        github: "https://Github.com/M-Saad-Sohail/TodoApp-React-Js/",
-        externalLink: "https://m-saad-sohail.github.io/TodoApp-React-Js/",
-      },
-    },
-    {
-      image: StopWatch.src,
-      projectName: "Stop Watch",
-      projectLink: "https://saadsohail-stopwatch.netlify.app/",
-      projectDescription:
-        "I created a Stop Watch using HTML5, CSS3 & JavaScript.I have also added sound effect using a small audio which is handled through an API to handle Infinite play without pause or Glitch,I have also added background animation using Css and the styling is completed using Tailwind Css. ",
-      projectTech: ["HTML5", "CSS3", "JavaScript ES6", "Tailwind Css"],
-      projectExternalLinks: {
-        github: "https://github.com/M-Saad-Sohail/Stop-Watch",
-        externalLink: "https://saadsohail-stopwatch.netlify.app/",
-      },
-    },
+    // {
+    //   image: TodoApp.src,
+    //   projectName: "TodoApp React",
+    //   projectLink: "https://m-saad-sohail.github.io/TodoApp-React-Js/",
+    //   projectDescription:
+    //     "I created this TodoApp which can let you Add Todos, Delete todos, and you can also edit those Todos all these Functionalities were implemented using React useState hook and styled using Tailwind Css.",
+    //   projectTech: ["React Js", "Tailwind Css"],
+    //   projectExternalLinks: {
+    //     github: "https://Github.com/M-Saad-Sohail/TodoApp-React-Js/",
+    //     externalLink: "https://m-saad-sohail.github.io/TodoApp-React-Js/",
+    //   },
+    // },
+    // {
+    //   image: StopWatch.src,
+    //   projectName: "Stop Watch",
+    //   projectLink: "https://saadsohail-stopwatch.netlify.app/",
+    //   projectDescription:
+    //     "I created a Stop Watch using HTML5, CSS3 & JavaScript.I have also added sound effect using a small audio which is handled through an API to handle Infinite play without pause or Glitch,I have also added background animation using Css and the styling is completed using Tailwind Css. ",
+    //   projectTech: ["HTML5", "CSS3", "JavaScript ES6", "Tailwind Css"],
+    //   projectExternalLinks: {
+    //     github: "https://github.com/M-Saad-Sohail/Stop-Watch",
+    //     externalLink: "https://saadsohail-stopwatch.netlify.app/",
+    //   },
+    // },
     // {
     //   image: "/project3.png",
     //   projectName: "TodoApp React",
