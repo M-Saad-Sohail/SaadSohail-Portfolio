@@ -1,8 +1,6 @@
 import Button from "@/components/Button";
 import Logo from "@/components/Logo";
 import Link from "next/link";
-import { GiHamburgerMenu } from "react-icons/gi";
-import { CgClose } from "react-icons/cg";
 import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 function Navbar() {
@@ -48,6 +46,11 @@ function Navbar() {
     }
   }, [responsiveNavVisible]);
 
+  const handleOnClick = (e: any) => {
+    e.stopPropagation();
+    setResponsiveNavVisible(!responsiveNavVisible);
+  };
+
   return (
     <nav>
       <div className={`wrapper ${navbarVisible ? "blur-nav" : ""}`}>
@@ -71,21 +74,15 @@ function Navbar() {
             duration: 0.3,
             ease: "easeInOut",
           }}>
-          {responsiveNavVisible ? (
-            <CgClose
-              onClick={(e) => {
-                e.stopPropagation();
-                setResponsiveNavVisible(false);
-              }}
-            />
-          ) : (
-            <GiHamburgerMenu
-              onClick={(e) => {
-                e.stopPropagation();
-                setResponsiveNavVisible(true);
-              }}
-            />
-          )}
+          <div
+            id="nav-icon3"
+            className={responsiveNavVisible ? "open" : ""}
+            onClick={(e) => handleOnClick(e)}>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
         </motion.div>
         <div
           className={`${responsiveNavVisible && "nav-responsive"} nav-items`}>

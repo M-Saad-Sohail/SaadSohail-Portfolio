@@ -61,3 +61,6 @@ html {
   border: 3px solid var(--background-color);
   border-radius: 10px;
 }
+html {
+  scroll-padding-top: 150px;
+}
